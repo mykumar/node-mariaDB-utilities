@@ -1,0 +1,31 @@
+{
+  "name": "mariadb-utilities",
+  "version": "1.0.0",
+  "author": "smileofninja <smileofninja@gmail.com>",
+  "description": "mariaDB Utilities for node-mysql driver with specialized result types, introspection, joins and other helpful functionality.",
+  "keywords": [
+    "maridb",
+    "utilities",
+    "introspection",
+    "joins"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smileofninja/node-mariaDB-utilities"
+  },
+  "main": "./utilities",
+  "dependencies": {
+    "mysql": "2.5.x"
+  },
+  "engines": {
+    "node": ">= 0.6",
+    "iojs": ">= 1.0.0"
+  },
+  "readmeFilename": "README.md",
+  "jshintConfig": {
+    "predef": [ "api", "db", "global", "cms", "inArray", "emptyness", "window" ],
+    "node": true,
+    "indent": 2,
+    "maxcomplexity": 25
+  }
+}
